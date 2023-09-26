@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      rel="shortcut icon"
+      href="/assets/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
@@ -19,18 +24,21 @@
     />
 
     <!--------------------------- SWIPER CSS -------------------------------------------->
-    <link rel="stylesheet" href="assets/CSS/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="/CSS/swiper-bundle.min.css" />
 
     <!--------------------------- CSS -------------------------------------------->
-    <link rel="stylesheet" href="assets/CSS/styles.css" />
+    <link rel="stylesheet" href="/CSS/styles.css" />
 
-    <title>SITE</title>
+    <title>JOE_x</title>
   </head>
   <body>
     <!--==================== HEADER ====================-->
     <header class="header" id="header">
       <nav class="nav container">
-        <a href="#" class="nav-logo">Joseph</a>
+        <div class="nav_logo">
+          <img src="assets/joe_x.png" alt="" class="logo_img" />
+          <a href="#" class="nav-logo">Joseph</a>
+        </div>
 
         <div class="nav-menu" id="nav__menu">
           <ul class="nav-list grid">
@@ -87,21 +95,21 @@
           <div class="home-content grid">
             <div class="home-social">
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/oyinloye-joseph-b79820239/"
                 target="blank"
                 class="home-social-icon"
               >
                 <i class="uil uil-linkedin-alt"></i>
               </a>
               <a
-                href="https://dribbble.com/"
+                href="https://dribbble.com/joe_x"
                 target="blank"
                 class="home-social-icon"
               >
                 <i class="uil uil-dribbble"></i>
               </a>
               <a
-                href="https://github.com/"
+                href="https://github.com/JoeTechx"
                 target="blank"
                 class="home-social-icon"
               >
@@ -134,7 +142,7 @@
                     class="home-blob-img"
                     x="12"
                     y="18"
-                    xlink:href="assets/img/perfil.png"
+                    xlink:href="assets/joex.png"
                   />
                 </g>
               </svg>
@@ -142,10 +150,13 @@
 
             <div class="home-data">
               <h1 class="home-title">Hi, I'm Joseph</h1>
-              <h3 class="home-subtitle">frontend developer</h3>
+              <h3 class="home-subtitle">Frontend Developer</h3>
               <p class="home-description">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Mollitia voluptatem qui dolores, quia corrupti temporibus!
+                I'm a dedicated Front-End Developer on a mission to craft
+                digital experiences that captivate and delight users. My
+                fascination with web development stems from a desire to merge
+                creativity with technology, resulting in beautiful and
+                functional websites.
               </p>
               <a href="#contact" class="button button--flex">
                 Contact Me <i class="uil uil-message button-icon"></i>
@@ -167,34 +178,32 @@
         <h2 class="section-title">About Me</h2>
         <span class="section-subtitle">My Introduction</span>
         <div class="about-container container grid">
-          <img src="assets/img/about.jpg" alt="" class="about-img" />
+          <img src="assets/about.jpg" alt="" class="about-img" />
 
           <div class="about-data">
             <p class="about-description">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut praesentium eaque ea voluptate quas facilis rerum blanditiis ducimus tempora voluptatem saepe aperiam nisi, odit impedit quibusdam quaerat deserunt optio perspiciatis.
-            </p>
+              With a background in both design and development, I bring a unique
+              perspective to every project. I'm a firm believer in the power of
+              collaboration between designers and developers to create
+              harmonious, user-centric interfaces.
             <div class="about-info">
               <div>
-                <span class="about-info-title">08+</span>
+                <span class="about-info-title">02+</span>
                 <span class="about-info-name">Years <br />experience</span>
               </div>
 
               <div>
-                <span class="about-info-title">20+</span>
+                <span class="about-info-title">01+</span>
                 <span class="about-info-name">Companies <br />project</span>
               </div>
 
               <div>
-                <span class="about-info-title">05+</span>
-                <span class="about-info-name">Companies <br />worked</span>
+                <span class="about-info-title">02+</span>
+                <span class="about-info-name">internship <br />done</span>
               </div>
             </div>
             <div class="about-button">
-              <a
-                download=""
-                href="assets/pdf/My  C.V.pdf"
-                class="button button--flex"
-              >
+              <a download="" href="/pdf/MyCV.pdf" class="button button--flex">
                 Download CV <i class="uil uil-download-alt button-icon"></i>
               </a>
             </div>
@@ -215,7 +224,7 @@
                 <i class="uil uil-brackets-curly skills-icon"></i>
                 <div>
                   <h1 class="skills-title">Frontend developer</h1>
-                  <span class="skills-subtitle">more than 4 years</span>
+                  <span class="skills-subtitle">more than 2 years</span>
                 </div>
                 <i class="uil uil-angle-down skills-arrow"></i>
               </div>
@@ -223,7 +232,7 @@
                 <div class="skills-data">
                   <div class="skills-titles">
                     <h3 class="skille-name">HTML</h3>
-                    <span class="skills-number">90%</span>
+                    <span class="skills-number">95%</span>
                   </div>
                   <div class="skills-bar">
                     <span class="skills-percentage skills-html"></span>
@@ -250,7 +259,7 @@
                 <div class="skills-data">
                   <div class="skills-titles">
                     <h3 class="skille-name">React</h3>
-                    <span class="skills-number">85%</span>
+                    <span class="skills-number">55%</span>
                   </div>
                   <div class="skills-bar">
                     <span class="skills-percentage skills-react"></span>
@@ -264,24 +273,15 @@
                 <i class="uil uil-server-network skills-icon"></i>
                 <div>
                   <h1 class="skills-title">Backend developer</h1>
-                  <span class="skils-subtitle">more than 2 years</span>
+                  <span class="skils-subtitle">more than 1 years</span>
                 </div>
                 <i class="uil uil-angle-down skills-arrow"></i>
               </div>
               <div class="skills-list grid">
                 <div class="skills-data">
                   <div class="skills-titles">
-                    <h3 class="skille-name">PHP</h3>
-                    <span class="skills-number">80%</span>
-                  </div>
-                  <div class="skills-bar">
-                    <span class="skills-percentage skills-php"></span>
-                  </div>
-                </div>
-                <div class="skills-data">
-                  <div class="skills-titles">
                     <h3 class="skille-name">Node js</h3>
-                    <span class="skills-number">70%</span>
+                    <span class="skills-number">50%</span>
                   </div>
                   <div class="skills-bar">
                     <span class="skills-percentage skills-node"></span>
@@ -290,19 +290,10 @@
                 <div class="skills-data">
                   <div class="skills-titles">
                     <h3 class="skille-name">FireBase</h3>
-                    <span class="skills-number">90%</span>
+                    <span class="skills-number">70%</span>
                   </div>
                   <div class="skills-bar">
                     <span class="skills-percentage skills-firebase"></span>
-                  </div>
-                </div>
-                <div class="skills-data">
-                  <div class="skills-titles">
-                    <h3 class="skille-name">Python</h3>
-                    <span class="skills-number">55%</span>
-                  </div>
-                  <div class="skills-bar">
-                    <span class="skills-percentage skills-python"></span>
                   </div>
                 </div>
               </div>
@@ -315,7 +306,7 @@
                 <i class="uil uil-swatchbook skills-icon"></i>
                 <div>
                   <h1 class="skills-title">Designer</h1>
-                  <span class="skills-subtitle">more than 5 years</span>
+                  <span class="skills-subtitle">more than 2 years</span>
                 </div>
                 <i class="uil uil-angle-down skills-arrow"></i>
               </div>
@@ -327,24 +318,6 @@
                   </div>
                   <div class="skills-bar">
                     <span class="skills-percentage skills-figma"></span>
-                  </div>
-                </div>
-                <div class="skills-data">
-                  <div class="skills-titles">
-                    <h3 class="skille-name">Sketch</h3>
-                    <span class="skills-number">85%</span>
-                  </div>
-                  <div class="skills-bar">
-                    <span class="skills-percentage skills-sketch"></span>
-                  </div>
-                </div>
-                <div class="skills-data">
-                  <div class="skills-titles">
-                    <h3 class="skille-name">photoshop</h3>
-                    <span class="skills-number">85%</span>
-                  </div>
-                  <div class="skills-bar">
-                    <span class="skills-percentage skills-photoshop"></span>
                   </div>
                 </div>
               </div>
@@ -384,8 +357,8 @@
               <!--==================== QUALIFICATION 1 ====================-->
               <div class="qualification-data">
                 <div>
-                  <h3 class="qualification-title">Computer Engineer</h3>
-                  <span class="qualification-subtitle">Pery - university</span>
+                  <h3 class="qualification-title">Computer science</h3>
+                  <span class="qualification-subtitle">university of ilorin</span>
                   <div class="qualification-calendar">
                     <i class="uil uil-calendar-alt"></i>
                     2009-2014
@@ -409,7 +382,7 @@
 
                 <div>
                   <h3 class="qualification-title">Web Design</h3>
-                  <span class="qualification-subtitle">spain - Institute</span>
+                  <span class="qualification-subtitle">i4g- Institute</span>
                   <div class="qualification-calendar">
                     <i class="uil uil-calendar-alt"></i>
                     2014-2017
@@ -421,10 +394,10 @@
               <div class="qualification-data">
                 <div>
                   <h3 class="qualification-title">Web Development</h3>
-                  <span class="qualification-subtitle">Pery - Institute</span>
+                  <span class="qualification-subtitle">HNGx. - Institute</span>
                   <div class="qualification-calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2017-2019
+                    2023-till date
                   </div>
                 </div>
 
@@ -445,10 +418,10 @@
 
                 <div>
                   <h3 class="qualification-title">Master in Ui/Ux</h3>
-                  <span class="qualification-subtitle">Pery - Institute</span>
+                  <span class="qualification-subtitle">Zuri. - Institute</span>
                   <div class="qualification-calendar">
                     <i class="uil uil-calendar-alt"></i>
-                    2019-2021
+                    2020-2021
                   </div>
                 </div>
               </div>
@@ -484,7 +457,7 @@
 
                 <div>
                   <h3 class="qualification-title">Frontend Development</h3>
-                  <span class="qualification-subtitle">Apple Inc - Spain</span>
+                  <span class="qualification-subtitle">HNGx. - Nigeria</span>
                   <div class="qualification-calendar">
                     <i class="uil uil-calendar-alt"></i>
                     2018-2020
@@ -496,7 +469,7 @@
               <div class="qualification-data">
                 <div>
                   <h3 class="qualification-title">Ui Designer</h3>
-                  <span class="qualification-subtitle">Figma - Spain</span>
+                  <span class="qualification-subtitle">Zuri. - Spain</span>
                   <div class="qualification-calendar">
                     <i class="uil uil-calendar-alt"></i>
                     2017-2019
@@ -529,10 +502,7 @@
             </div>
 
             <span
-              class="
-                button button--flex button--small button--link
-                services-button
-              "
+              class="button button--flex button--small button--link services-button"
             >
               View More
               <i class="uil uil-arrow-right button-icon"></i>
@@ -546,7 +516,7 @@
                 <ul class="services-modal-services grid">
                   <li class="services-modal-service">
                     <i class="uil uil-check-circle services-modal-icon"></i>
-                    <p>I develop the interface.</p>
+                    <p>User Research.</p>
                   </li>
 
                   <li class="services-modal-service">
@@ -579,10 +549,7 @@
             </div>
 
             <span
-              class="
-                button button--flex button--small button--link
-                services-button
-              "
+              class="button button--flex button--small button--link services-button"
             >
               View More
               <i class="uil uil-arrow-right button-icon"></i>
@@ -629,10 +596,7 @@
             </div>
 
             <span
-              class="
-                button button--flex button--small button--link
-                services-button
-              "
+              class="button button--flex button--small button--link services-button"
             >
               View More
               <i class="uil uil-arrow-right button-icon"></i>
@@ -679,11 +643,7 @@
           <div class="swiper-wrapper">
             <!--==================== PORTFOLIO 1 ====================-->
             <div class="portfolio-content grid swiper-slide">
-              <img
-                src="assets/img/portfolio1.jpg"
-                alt=""
-                class="portfolio-img"
-              />
+              <img src="assets/portfolio1.jpg" alt="" class="portfolio-img" />
               <div class="portfolio-data">
                 <h3 class="portfolio-title">Modern Website</h3>
                 <p class="portfolio-description">
@@ -701,11 +661,7 @@
 
             <!--==================== PORTFOLIO 2 ====================-->
             <div class="portfolio-content grid swiper-slide">
-              <img
-                src="assets/img/portfolio2.jpg"
-                alt=""
-                class="portfolio-img"
-              />
+              <img src="assets/portfolio2.jpg" alt="" class="portfolio-img" />
               <div class="portfolio-data">
                 <h3 class="portfolio-title">Brand Design</h3>
                 <p class="portfolio-description">
@@ -723,11 +679,7 @@
 
             <!--==================== PORTFOLIO 3 ====================-->
             <div class="portfolio-content grid swiper-slide">
-              <img
-                src="assets/img/portfolio3.jpg"
-                alt=""
-                class="portfolio-img"
-              />
+              <img src="assets/portfolio3.jpg" alt="" class="portfolio-img" />
               <div class="portfolio-data">
                 <h3 class="portfolio-title">Online store</h3>
                 <p class="portfolio-description">
@@ -771,7 +723,7 @@
                 <i class="uil uil-message project-icon button-icon"></i>
               </a>
             </div>
-            <img src="assets/img/project.png" alt="" class="project-img" />
+            <img src="assets/project.png" alt="" class="project-img" />
           </div>
         </div>
       </section>
@@ -787,11 +739,15 @@
             <div class="testimonial-content swiper-slide">
               <div class="testimonial-data">
                 <div class="testimonial-header">
-                  <img src="assets/img/testimonial1.jpg" alt="" class="testimonial-img">
-                  
+                  <img
+                    src="assets/testimonial1.jpg"
+                    alt=""
+                    class="testimonial-img"
+                  />
+
                   <div>
-                   <h3 class="testimonial-name">Sara Smith</h3>
-                   <span class="testimonial-client">Client</span>
+                    <h3 class="testimonial-name">Sara Smith</h3>
+                    <span class="testimonial-client">Client</span>
                   </div>
                 </div>
 
@@ -804,9 +760,9 @@
                 </div>
               </div>
 
-              <p class="testimonial-description">I get a good impression, I carry
-                 out my project with all possible qualityand attention and
-                 support 24 hours a day
+              <p class="testimonial-description">
+                I get a good impression, I carry out my project with all
+                possible qualityand attention and support 24 hours a day
               </p>
             </div>
 
@@ -814,11 +770,15 @@
             <div class="testimonial-content swiper-slide">
               <div class="testimonial-data">
                 <div class="testimonial-header">
-                  <img src="assets/img/testimonial2.jpg" alt="" class="testimonial-img">
-                  
+                  <img
+                    src="assets/testimonial2.jpg"
+                    alt=""
+                    class="testimonial-img"
+                  />
+
                   <div>
-                   <h3 class="testimonial-name">Matt Robbson</h3>
-                   <span class="testimonial-client">Client</span>
+                    <h3 class="testimonial-name">Matt Robbson</h3>
+                    <span class="testimonial-client">Client</span>
                   </div>
                 </div>
 
@@ -831,9 +791,9 @@
                 </div>
               </div>
 
-              <p class="testimonial-description">I get a good impression, I carry
-                 out my project with all possible qualityand attention and
-                 support 24 hours a day
+              <p class="testimonial-description">
+                I get a good impression, I carry out my project with all
+                possible qualityand attention and support 24 hours a day
               </p>
             </div>
 
@@ -841,11 +801,15 @@
             <div class="testimonial-content swiper-slide">
               <div class="testimonial-data">
                 <div class="testimonial-header">
-                  <img src="assets/img/testimonial3.jpg" alt="" class="testimonial-img">
-                  
+                  <img
+                    src="assets/testimonial3.jpg"
+                    alt=""
+                    class="testimonial-img"
+                  />
+
                   <div>
-                   <h3 class="testimonial-name">Raul Harris</h3>
-                   <span class="testimonial-client">Client</span>
+                    <h3 class="testimonial-name">Raul Harris</h3>
+                    <span class="testimonial-client">Client</span>
                   </div>
                 </div>
 
@@ -858,9 +822,9 @@
                 </div>
               </div>
 
-              <p class="testimonial-description">I get a good impression, I carry
-                 out my project with all possible qualityand attention and
-                 support 24 hours a day
+              <p class="testimonial-description">
+                I get a good impression, I carry out my project with all
+                possible qualityand attention and support 24 hours a day
               </p>
             </div>
           </div>
@@ -872,118 +836,136 @@
       <!--==================== CONTACT ME ====================-->
       <section class="contact section" id="contact">
         <h2 class="section-title">Contact Me</h2>
-          <span class="section-subtitle">Get in touch</span>
+        <span class="section-subtitle">Get in touch</span>
 
-          <div class="contact-container container grid">
-            <div>
-              <div class="contact-information">
-                <i class="uil uil-phone contact-icon"></i>
-
-                <div>
-                  <h3 class="contact-title">Call Me</h3>
-                  <span class="contact-subtitle">999-777-888</span>
-                </div>
-              </div>
-              <div class="contact-information">
-                <i class="uil uil-envelope contact-icon"></i>
-
-                <div>
-                  <h3 class="contact-title">Email</h3>
-                  <span class="contact-subtitle">abc@gmail.com</span>
-                </div>
-              </div>
-              <div class="contact-information">
-                <i class="uil uil-map-marker contact-icon"></i>
-
-                <div>
-                  <h3 class="contact-title">Location</h3>
-                  <span class="contact-subtitle">xyz - obi Av. Bolivar #43</span>
-                </div>
-              </div>
-            </div>
-
-            <form action="" class="contact-form grid">
-              <div class="contact-inputs grid">
-                <div class="contact-content">
-                  <label for="" class="contact-label">Name</label>
-                  <input type="text" class="contact-input">
-                </div>
-                <div class="contact-content">
-                  <label for="" class="contact-label">Email</label>
-                  <input type="email" class="contact-input">
-                </div>
-              </div>
-              <div class="contact-content">
-                <label for="" class="contact-label">Project</label>
-                <input type="text" class="contact-input">
-              </div>
-              <div class="contact-content">
-                <label for="" class="contact-label">Message</label>
-                <textarea name="" id="" cols="0" rows="7" class="contact-input"></textarea>
-              </div>
+        <div class="contact-container container grid">
+          <div>
+            <div class="contact-information">
+              <i class="uil uil-phone contact-icon"></i>
 
               <div>
-                <a href="#" class="button button--flex">
-                  Send Message
-                  <i class="uil uil-message button-icon"></i>
-                </a>
+                <h3 class="contact-title">Call Me</h3>
+                <span class="contact-subtitle">999-777-888</span>
               </div>
-            </form>
+            </div>
+            <div class="contact-information">
+              <i class="uil uil-envelope contact-icon"></i>
+
+              <div>
+                <h3 class="contact-title">Email</h3>
+                <span class="contact-subtitle">abc@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact-information">
+              <i class="uil uil-map-marker contact-icon"></i>
+
+              <div>
+                <h3 class="contact-title">Location</h3>
+                <span class="contact-subtitle">xyz - obi Av. Bolivar #43</span>
+              </div>
+            </div>
           </div>
+
+          <form action="" class="contact-form grid">
+            <div class="contact-inputs grid">
+              <div class="contact-content">
+                <label for="" class="contact-label">Name</label>
+                <input type="text" class="contact-input" />
+              </div>
+              <div class="contact-content">
+                <label for="" class="contact-label">Email</label>
+                <input type="email" class="contact-input" />
+              </div>
+            </div>
+            <div class="contact-content">
+              <label for="" class="contact-label">Project</label>
+              <input type="text" class="contact-input" />
+            </div>
+            <div class="contact-content">
+              <label for="" class="contact-label">Message</label>
+              <textarea
+                name=""
+                id=""
+                cols="0"
+                rows="7"
+                class="contact-input"
+              ></textarea>
+            </div>
+
+            <div>
+              <a href="#" class="button button--flex">
+                Send Message
+                <i class="uil uil-message button-icon"></i>
+              </a>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
 
     <!---------------------------------- FOOTER ------------------------------------->
-      <footer class="footer">
-        <div class="footer-bg">
-          <div class="footer-container container grid">
-            <div>
-              <h1 class="footer-title">Joseph</h1>
-              <span class="footer-subtitle">Frontend developer</span>
-            </div>
-
-            <ul class="footer-links">
-              <li>
-                <a href="#services" class="footer-link">Services</a>
-              </li>
-
-              <li>
-                <a href="#portfolio" class="footer-link">Portfolio</a>
-              </li>
-
-              <li>
-                <a href="#contact" class="footer-link">Contact Me</a>
-              </li>
-            </ul>
-
-            <div class="footer-socials">
-              <a href="https://www.facebook.com/" target="blank" class="footer-social">
-                <i class="uil uil-facebook-f"></i>
-              </a>
-
-              <a href="https://www.instagram.com/" target="blank" class="footer-social">
-                    <i class="uil uil-instagram"></i>
-              </a>
-
-              <a href="https://www.twitter.com/" target="blank" class="footer-social">
-                 <i class="uil uil-twitter-alt"></i>
-              </a>
-            </div>
+    <footer class="footer">
+      <div class="footer-bg">
+        <div class="footer-container container grid">
+          <div>
+            <h1 class="footer-title">Joseph</h1>
+            <span class="footer-subtitle">Frontend developer</span>
           </div>
 
-          <p class="footer-copy">&#169; joetech. All right reserved</p>
+          <ul class="footer-links">
+            <li>
+              <a href="#services" class="footer-link">Services</a>
+            </li>
+
+            <li>
+              <a href="#portfolio" class="footer-link">Portfolio</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="footer-link">Contact Me</a>
+            </li>
+          </ul>
+
+          <div class="footer-socials">
+            <a
+              href="https://www.facebook.com/"
+              target="blank"
+              class="footer-social"
+            >
+              <i class="uil uil-facebook-f"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/"
+              target="blank"
+              class="footer-social"
+            >
+              <i class="uil uil-instagram"></i>
+            </a>
+
+            <a
+              href="https://www.twitter.com/"
+              target="blank"
+              class="footer-social"
+            >
+              <i class="uil uil-twitter-alt"></i>
+            </a>
+          </div>
         </div>
-      </footer>
+
+        <p class="footer-copy">&#169; joetech. All right reserved</p>
+      </div>
+    </footer>
 
     <!----------------------------------- SCROLL TOP --------------------------------------->
-      <a href="#" class="scrollup" id="scroll-up">
-        <i class="uil uil-arrow-up scrollup-icon"></i>
-      </a>
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-arrow-up scrollup-icon"></i>
+    </a>
     <!------------------------------------- SWIPER JS-------------------------------------------->
-    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="/js/swiper-bundle.min.js"></script>
 
     <!--------------------------------------------- MAIN JS -------------------------------------------->
 
-    <script src="assets/js/main.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>
